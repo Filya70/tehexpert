@@ -1,0 +1,144 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.nav {
+  background-color: #fff;
+}
+
+.nav .logo {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 60px;
+}
+
+.nav .nav-item {
+  padding-left: 3%;
+}
+
+.nav .nav-item li {
+  display: inline-block;
+  cursor: default;
+  color: #333333;
+  font-family: Calibri;
+  font-size: 18px;
+  padding-left: 40px;
+  text-decoration: none;
+  padding-top: 33px;
+  font-weight: 700;
+}
+
+.nav .nav-item .dropdown-child {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  opacity: 0;
+  top: 6%px;
+  left: 10.5%;
+  position: absolute;
+  z-index: 2;
+  margin: 0 auto;
+  height: 460px;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.nav .nav-item .dropdown-child li {
+  padding-top: 22px;
+  list-style-type: none;
+}
+
+.nav .nav-item .dropdown-child li a {
+  margin: auto;
+  text-decoration: none;
+  color: #08131F;
+  font-family: Calibri;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.nav .nav-item .dropdown-child li a:before {
+  content: '';
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 10px;
+  height: 5px;
+  background: #D5D5D5;
+}
+
+.nav .nav-item .dropdown-child .dropdown-child-info {
+  width: 491px;
+  height: 348px;
+  margin: auto;
+  background: url(../img/vector.jpg);
+  background-origin: padding-box;
+}
+
+.nav .nav-item .dropdown-child .dropdown-child-info img {
+  padding-top: 33px;
+  padding-left: 17px;
+}
+
+.nav .nav-item .dropdown-child .dropdown-child-info .title {
+  padding-left: 50px;
+  padding-top: 16px;
+  width: 335px;
+  color: #08131F;
+  font-family: Calibri;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.nav .nav-item .dropdown-child .dropdown-child-info p {
+  width: 335px;
+  padding-left: 50px;
+  font-family: Calibri;
+  font-size: 13px;
+  line-height: normal;
+  color: #333333;
+}
+
+.nav .nav-item .dropdown-child .dropdown-child-info-main {
+  padding-top: 30px;
+}
+
+.nav .nav-item .Production:hover .dropdown-child {
+  opacity: 1;
+}
+
+.menu-search {
+  margin: auto;
+  padding-left: 3%px;
+}
+
+.nav-inform {
+  text-align: right;
+  margin-left: auto;
+  padding-right: 60px;
+  padding-top: 21px;
+  font-family: Calibri;
+  font-weight: 700;
+}
+
+.nav-inform .phone-number {
+  font-size: 24px;
+}
+
+.nav-inform .phone-number a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.nav-inform .back-coll {
+  font-size: 15px;
+  color: #E60000;
+}
+
+.nav-inform .back-coll a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
