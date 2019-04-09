@@ -25,9 +25,10 @@ body{
                 font-weight: 700;
             }
         .dropdown-child{
+            display: none;
             transition: 0.4s;
             opacity: 0;
-            top: 8%;
+            top: 6%;
             left: 10.5%;
             position: absolute;
             z-index: 2;
@@ -94,6 +95,7 @@ body{
         }
         .Production:hover .dropdown-child {
             opacity: 1;
+            display: block;
         }
     }
     
@@ -119,7 +121,7 @@ body{
         .back-coll{
             font-size: 15px;
             color: #E60000;
-            a{ж
+            a{
                 text-decoration: none;
             }
         }
