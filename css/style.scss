@@ -13,13 +13,14 @@ body{
     .nav-item{
         padding-left: 3%;
 
-            li{
+            .it{
                 display: inline-block;
+                padding-bottom: 33px;
                 cursor: default;
                 color: #333333;
                 font-family: Calibri;
                 font-size: 18px;
-                padding-left: 40px;
+                padding-left: 35px;
                 text-decoration: none;
                 padding-top: 33px;
                 font-weight: 700;
@@ -28,8 +29,8 @@ body{
             display: none;
             transition: 0.4s;
             opacity: 0;
-            top: 6%;
-            left: 10.5%;
+            top: 8.5%;
+            left: 12%;
             position: absolute;
             z-index: 2;
             margin: 0 auto;
@@ -38,6 +39,7 @@ body{
             text-decoration: none;
             li{
                 padding-top: 22px;
+                width: 300px;
                 list-style-type: none;
                 a{
                     margin: auto;
@@ -46,7 +48,6 @@ body{
                     font-family: Calibri;
                     font-size: 15px;
                     font-weight: 700;
-                    
                 }
                 a:before{
                     content: '';
@@ -57,6 +58,17 @@ body{
                     width: 10px;
                     height: 5px;
                     background: #D5D5D5;
+                }
+                a:hover:before{
+                    transition: 0.4s;
+                    content: '';
+                    margin-right: 10px;
+                    display: inline-block;
+                    vertical-align: middle;
+                    box-sizing: border-box;
+                    width: 25px;
+                    height: 5px;
+                    background: #E60000;
                 }
             }
             .dropdown-child-info{
