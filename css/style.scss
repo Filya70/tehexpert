@@ -37,11 +37,19 @@ body{
             height: 460px;
             overflow: hidden;
             text-decoration: none;
+            display: inline-block;
+            .subtitle-text{
+                display: none;
+            }
+            .subtitle-logo{
+                display: none;
+            }
             li{
                 padding-top: 22px;
                 width: 300px;
                 list-style-type: none;
-                a{
+                a{  
+                    padding-left: 10px;
                     margin: auto;
                     text-decoration: none;
                     color: #08131F;
@@ -49,27 +57,27 @@ body{
                     font-size: 15px;
                     font-weight: 700;
                 }
-                a:before{
-                    content: '';
-                    margin-right: 10px;
-                    display: inline-block;
-                    vertical-align: middle;
-                    box-sizing: border-box;
-                    width: 10px;
-                    height: 5px;
-                    background: #D5D5D5;
-                }
-                a:hover:before{
-                    transition: 0.4s;
-                    content: '';
-                    margin-right: 10px;
-                    display: inline-block;
-                    vertical-align: middle;
-                    box-sizing: border-box;
-                    width: 25px;
-                    height: 5px;
-                    background: #E60000;
-                }
+                
+            }
+            li:before{
+                content: '';
+                display: inline-block;
+                vertical-align: middle;
+                box-sizing: border-box;
+                width: 10px;
+                height: 5px;
+                background: #D5D5D5;
+            }
+            li:hover:before{
+                transition: 0.4s;
+                content: '';
+                margin-right: 10px;
+                display: inline-block;
+                vertical-align: middle;
+                box-sizing: border-box;
+                width: 25px;
+                height: 5px;
+                background: #E60000;
             }
             .dropdown-child-info{
                 width: 491px;
@@ -98,6 +106,9 @@ body{
                     font-size: 13px;
                     line-height: normal;
                     color: #333333;
+                    a{
+                        color: #333333;
+                    }
     
                 }
             }

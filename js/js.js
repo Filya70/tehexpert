@@ -1,10 +1,10 @@
-$('.dropdown-child').on('mouseover', function () {
+$('.source').on('mouseover', function () {
     var $src = $(this),
-        $srcImg = $src.find('.source__img').html(),
+        $srcImg = $src.find('.subtitle-logo').html(),
         $srcTxt = $src.find('.dropdown-child-item').html(),
-        $srcSgn = $src.find('.source__sgn').html();
+        $srcSgn = $src.find('.subtitle-text').html();
     
-    $('.target--img').html($srcImg);
+    $('.sub-logo').html($srcImg);
     $('.title').html($srcTxt);
-    $('.target--sgn').html($srcSgn);
+    $('.sub-text').html($srcSgn);
 });
