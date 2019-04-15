@@ -19,7 +19,7 @@ body {
 }
 
 .nav .nav-item {
-  padding-left: 3%;
+  padding-left: 3rem;
 }
 
 .nav .nav-item .it {
@@ -250,6 +250,10 @@ body {
   font-weight: 700;
 }
 
+.nav .nav-mobile .nav-mobile-block .item-mobile .item_active {
+  color: red;
+}
+
 .nav .nav-mobile .nav-mobile-block .item-mobile .clicked {
   color: #333333;
 }
@@ -307,7 +311,7 @@ body {
 
 .menu-search {
   margin: auto;
-  padding-left: 3%px;
+  padding-left: 3%;
 }
 
 .nav-inform {

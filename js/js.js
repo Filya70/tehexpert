@@ -60,7 +60,7 @@ $(document).ready(function () {
 $(document).ready(function () {
     $('.item').click(function () {
         $('.dropdown').slideToggle(500);
-        $(this).css('color', 'red');
+        $( this) .toggleClass('item_active');
     });
 
 
