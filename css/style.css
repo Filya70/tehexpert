@@ -37,7 +37,6 @@ body {
 
 .nav .nav-item .dropdown-child {
   display: none;
-  opacity: 0;
   top: 93px;
   left: 12%;
   position: absolute;
@@ -46,7 +45,6 @@ body {
   height: 460px;
   overflow: hidden;
   text-decoration: none;
-  display: inline-block;
 }
 
 .nav .nav-item .dropdown-child .subtitle-text {
@@ -156,7 +154,6 @@ body {
 }
 
 .nav .nav-item .Production:hover .dropdown-child {
-  opacity: 1;
   display: block;
 }
 
